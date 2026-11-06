@@ -1,0 +1,8 @@
+# Logs
+elm_log.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
