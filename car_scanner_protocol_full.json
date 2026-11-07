@@ -1,0 +1,4114 @@
+{
+ "source": "/mnt/user-data/uploads/elm_log.txt",
+ "connections": [
+  {
+   "index": 1,
+   "start": "22:27:45",
+   "commands": 5646,
+   "unique": 367
+  },
+  {
+   "index": 2,
+   "start": "22:34:53",
+   "commands": 4995,
+   "unique": 120
+  }
+ ],
+ "polling": [
+  {
+   "command": "010D",
+   "connection": 1,
+   "count": 4615,
+   "approx_period_s": 0.04
+  },
+  {
+   "command": "010D",
+   "connection": 2,
+   "count": 3547,
+   "approx_period_s": 0.05
+  },
+  {
+   "command": "0100",
+   "connection": 1,
+   "count": 109,
+   "approx_period_s": 0.9
+  },
+  {
+   "command": "0100",
+   "connection": 2,
+   "count": 89,
+   "approx_period_s": 2.09
+  },
+  {
+   "command": "22F508",
+   "connection": 2,
+   "count": 86,
+   "approx_period_s": 0.89
+  },
+  {
+   "command": "22F50F",
+   "connection": 2,
+   "count": 86,
+   "approx_period_s": 0.89
+  },
+  {
+   "command": "22F517",
+   "connection": 2,
+   "count": 85,
+   "approx_period_s": 0.15
+  },
+  {
+   "command": "22F518",
+   "connection": 2,
+   "count": 84,
+   "approx_period_s": 0.16
+  },
+  {
+   "command": "22F51E",
+   "connection": 2,
+   "count": 84,
+   "approx_period_s": 0.16
+  },
+  {
+   "command": "0118",
+   "connection": 2,
+   "count": 63,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "0119",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "011A",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "011B",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "011C",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "011E",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "011F",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "0121",
+   "connection": 2,
+   "count": 62,
+   "approx_period_s": 0.23
+  },
+  {
+   "command": "010103040A0B0D",
+   "connection": 1,
+   "count": 55,
+   "approx_period_s": 0.17
+  },
+  {
+   "command": "0106",
+   "connection": 1,
+   "count": 55,
+   "approx_period_s": 0.17
+  },
+  {
+   "command": "0107",
+   "connection": 1,
+   "count": 54,
+   "approx_period_s": 0.17
+  },
+  {
+   "command": "0108",
+   "connection": 1,
+   "count": 54,
+   "approx_period_s": 0.17
+  },
+  {
+   "command": "0109",
+   "connection": 1,
+   "count": 54,
+   "approx_period_s": 0.17
+  },
+  {
+   "command": "0103",
+   "connection": 2,
+   "count": 51,
+   "approx_period_s": 1.14
+  },
+  {
+   "command": "0110",
+   "connection": 2,
+   "count": 42,
+   "approx_period_s": 0.24
+  },
+  {
+   "command": "0111",
+   "connection": 2,
+   "count": 42,
+   "approx_period_s": 0.24
+  },
+  {
+   "command": "0124",
+   "connection": 2,
+   "count": 42,
+   "approx_period_s": 0.24
+  },
+  {
+   "command": "012F",
+   "connection": 2,
+   "count": 34,
+   "approx_period_s": 0.21
+  },
+  {
+   "command": "0105",
+   "connection": 1,
+   "count": 28,
+   "approx_period_s": 0.33
+  }
+ ],
+ "commands_by_category": {
+  "adapter_setup": {
+   "ATAR": {
+    "count": 17,
+    "per_connection": {
+     "1": 12,
+     "2": 5
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATAT1": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATCAF0": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATCAF1": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATCEA": {
+    "count": 6,
+    "per_connection": {
+     "1": 4,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATCM000": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATCRA21F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATCRA77A": {
+    "count": 11,
+    "per_connection": {
+     "1": 7,
+     "2": 4
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATDPN": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "A6"
+   },
+   "ATE0": {
+    "count": 8,
+    "per_connection": {
+     "1": 4,
+     "2": 4
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATFCSD300000": {
+    "count": 7,
+    "per_connection": {
+     "1": 4,
+     "2": 3
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATFCSD300005": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATFCSH710": {
+    "count": 4,
+    "per_connection": {
+     "1": 3,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATFCSM0": {
+    "count": 11,
+    "per_connection": {
+     "1": 7,
+     "2": 4
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATFCSM1": {
+    "count": 11,
+    "per_connection": {
+     "1": 7,
+     "2": 4
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATH1": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATM0": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATPBC001": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATRV": {
+    "count": 65,
+    "per_connection": {
+     "1": 54,
+     "2": 11
+    },
+    "contexts": {},
+    "first_response": "12.4V"
+   },
+   "ATS0": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATSH200": {
+    "count": 6,
+    "per_connection": {
+     "1": 4,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATSH710": {
+    "count": 12,
+    "per_connection": {
+     "1": 8,
+     "2": 4
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATSH7DF": {
+    "count": 18,
+    "per_connection": {
+     "1": 12,
+     "2": 6
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATSP0": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATSP6": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATSPB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATST06": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATST0A": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATST32": {
+    "count": 12,
+    "per_connection": {
+     "1": 8,
+     "2": 4
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATV0": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATV1": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "OK"
+   },
+   "ATZ": {
+    "count": 4,
+    "per_connection": {
+     "1": 2,
+     "2": 2
+    },
+    "contexts": {},
+    "first_response": "ELM327 v1.5"
+   },
+   "STI": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "STN1170 v3.2.0"
+   },
+   "VTI": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {},
+    "first_response": "12.4V"
+   }
+  },
+  "kwp_18_readDTC": {
+   "1800FF00": {
+    "count": 2,
+    "per_connection": {
+     "1": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1,
+     "SH=710 CRA=77A": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "1800FFFF": {
+    "count": 2,
+    "per_connection": {
+     "1": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1,
+     "SH=710 CRA=77A": 1
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "kwp_1A_readECUid": {
+   "1A90": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "NO DATA"
+   },
+   "1A91": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "NO DATA"
+   },
+   "1A9A": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "NO DATA"
+   },
+   "1A9B": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "kwp_1F": {
+   "1FC00010000301": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=200 CRA=21F": 1
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "obd_mode_01": {
+   "0100": {
+    "count": 198,
+    "per_connection": {
+     "1": 109,
+     "2": 89
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 198
+    },
+    "first_response": "7E8064100FFFFFFFF"
+   },
+   "0101": {
+    "count": 11,
+    "per_connection": {
+     "2": 11
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 11
+    },
+    "first_response": "7E806410100000000"
+   },
+   "010103040A0B0D": {
+    "count": 55,
+    "per_connection": {
+     "1": 55
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 55
+    },
+    "first_response": "7E806410100000000"
+   },
+   "0103": {
+    "count": 66,
+    "per_connection": {
+     "1": 15,
+     "2": 51
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 66
+    },
+    "first_response": "7E806410300000000"
+   },
+   "01030D101124": {
+    "count": 2,
+    "per_connection": {
+     "1": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E806410300000000"
+   },
+   "0104": {
+    "count": 9,
+    "per_connection": {
+     "2": 9
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 9
+    },
+    "first_response": "7E803410464"
+   },
+   "0105": {
+    "count": 33,
+    "per_connection": {
+     "1": 28,
+     "2": 5
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 33
+    },
+    "first_response": "7E80341055A"
+   },
+   "0106": {
+    "count": 64,
+    "per_connection": {
+     "1": 55,
+     "2": 9
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 64
+    },
+    "first_response": "7E806410600000000"
+   },
+   "0107": {
+    "count": 62,
+    "per_connection": {
+     "1": 54,
+     "2": 8
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806410700000000"
+   },
+   "0108": {
+    "count": 62,
+    "per_connection": {
+     "1": 54,
+     "2": 8
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806410800000000"
+   },
+   "0109": {
+    "count": 62,
+    "per_connection": {
+     "1": 54,
+     "2": 8
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806410900000000"
+   },
+   "010A": {
+    "count": 8,
+    "per_connection": {
+     "2": 8
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 8
+    },
+    "first_response": "7E806410A00000000"
+   },
+   "010B": {
+    "count": 8,
+    "per_connection": {
+     "2": 8
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 8
+    },
+    "first_response": "7E806410B00000000"
+   },
+   "010C": {
+    "count": 7,
+    "per_connection": {
+     "2": 7
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 7
+    },
+    "first_response": "7E804410C1AF8"
+   },
+   "010D": {
+    "count": 8162,
+    "per_connection": {
+     "1": 4615,
+     "2": 3547
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 8162
+    },
+    "first_response": "7E803410D3C"
+   },
+   "010D1011121415": {
+    "count": 19,
+    "per_connection": {
+     "1": 19
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 19
+    },
+    "first_response": "7E803410D3C"
+   },
+   "0110": {
+    "count": 56,
+    "per_connection": {
+     "1": 14,
+     "2": 42
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 56
+    },
+    "first_response": "7E80441100080"
+   },
+   "0111": {
+    "count": 56,
+    "per_connection": {
+     "1": 14,
+     "2": 42
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 56
+    },
+    "first_response": "7E80341114E"
+   },
+   "0116": {
+    "count": 17,
+    "per_connection": {
+     "1": 17
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 17
+    },
+    "first_response": "7E806411600000000"
+   },
+   "011617": {
+    "count": 2,
+    "per_connection": {
+     "1": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E806411600000000"
+   },
+   "0117": {
+    "count": 16,
+    "per_connection": {
+     "1": 16
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 16
+    },
+    "first_response": "7E806411700000000"
+   },
+   "0118": {
+    "count": 63,
+    "per_connection": {
+     "2": 63
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 63
+    },
+    "first_response": "7E806411800000000"
+   },
+   "0119": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806411900000000"
+   },
+   "011A": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806411A00000000"
+   },
+   "011B": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806411B00000000"
+   },
+   "011C": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E803411C08"
+   },
+   "011E": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806411E00000000"
+   },
+   "011F": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E804411F8000"
+   },
+   "0120": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E8064120FFFFFFFF"
+   },
+   "0121": {
+    "count": 62,
+    "per_connection": {
+     "2": 62
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 62
+    },
+    "first_response": "7E806412100000000"
+   },
+   "0124": {
+    "count": 56,
+    "per_connection": {
+     "1": 14,
+     "2": 42
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 56
+    },
+    "first_response": "7E806412400000000"
+   },
+   "012F": {
+    "count": 34,
+    "per_connection": {
+     "2": 34
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 34
+    },
+    "first_response": "7E806412F00000000"
+   },
+   "0133": {
+    "count": 1,
+    "per_connection": {
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "7E806413300000000"
+   },
+   "0140": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E806414000000000"
+   }
+  },
+  "obd_mode_03": {
+   "03": {
+    "count": 2,
+    "per_connection": {
+     "1": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E80443000000"
+   }
+  },
+  "obd_mode_06": {
+   "0601": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0602": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0603": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0604": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0605": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0606": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0607": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0608": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0609": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "060A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "060B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "060C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "060D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "060E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "060F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0610": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0611": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0612": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0613": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0614": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0615": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0616": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0617": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0618": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0619": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "061A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "061B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "061C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "061D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "061E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "061F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0621": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0622": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0623": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0624": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0625": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0626": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0627": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0628": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0629": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "062A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "062B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "062C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "062D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "062E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "062F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0630": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0631": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0632": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0633": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0634": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0635": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0636": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0637": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0638": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0639": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "063A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "063B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "063C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "063D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "063E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "063F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0641": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0642": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0643": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0644": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0645": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0646": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0647": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0648": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0649": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "064A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "064B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "064C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "064D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "064E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "064F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0650": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0651": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0652": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0653": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0654": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0655": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0656": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0657": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0658": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0659": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "065A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "065B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "065C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "065D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "065E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "065F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0661": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0662": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0663": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0664": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0665": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0666": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0667": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0668": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0669": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "066A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "066B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "066C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "066D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "066E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "066F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0670": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0671": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0672": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0673": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0674": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0675": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0676": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0677": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0678": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0679": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "067A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "067B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "067C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "067D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "067E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "067F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0681": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0682": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0683": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0684": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0685": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0686": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0687": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0688": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0689": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "068A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "068B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "068C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "068D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "068E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "068F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0690": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0691": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0692": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0693": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0694": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0695": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0696": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0697": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0698": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "0699": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "069A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "069B": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "069C": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "069D": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "069E": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "069F": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A1": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A2": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A3": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A4": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A5": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A6": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A7": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A8": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06A9": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06AA": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06AB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06AC": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06AD": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06AE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06AF": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B0": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B1": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B2": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B3": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B4": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B5": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B6": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B7": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B8": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06B9": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06BA": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06BB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06BC": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06BD": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06BE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06BF": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C1": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C2": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C3": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C4": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C5": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C6": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C7": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C8": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06C9": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06CA": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06CB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06CC": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06CD": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06CE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06CF": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D0": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D1": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D2": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D3": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D4": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D5": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D6": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D7": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D8": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06D9": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06DA": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06DB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06DC": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06DD": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06DE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06DF": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E1": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E2": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E3": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E4": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E5": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E6": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E7": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E8": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06E9": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06EA": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06EB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06EC": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06ED": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06EE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06EF": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F0": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F1": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F2": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F3": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F4": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F5": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F6": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F7": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F8": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06F9": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06FA": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06FB": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06FC": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06FD": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "06FE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "obd_mode_07": {
+   "07": {
+    "count": 2,
+    "per_connection": {
+     "1": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "obd_mode_09": {
+   "0900": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E812490000000000000000000000000000000000"
+   },
+   "0902": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E8144902015846313233343536373839303132330000"
+   },
+   "0904": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E814490401312E302E30000000000000000000000000"
+   },
+   "090A": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E812490A00000000000000000000000000000000"
+   }
+  },
+  "obd_mode_0A": {
+   "0A": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "raw_can_frames": {
+   "19C00010000301": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=200 CRA=-": 3
+    },
+    "first_response": "NO DATA"
+   },
+   "1FC00010000301": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=200 CRA=-": 2
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "uds_10_session": {
+   "1001": {
+    "count": 5,
+    "per_connection": {
+     "1": 3,
+     "2": 2
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 5
+    },
+    "first_response": "7E8025003"
+   },
+   "1003": {
+    "count": 8,
+    "per_connection": {
+     "1": 5,
+     "2": 3
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 8
+    },
+    "first_response": "7E8025003"
+   }
+  },
+  "uds_19_readDTC": {
+   "190208": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "1902AE": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 1
+    },
+    "first_response": "NO DATA"
+   },
+   "1902AF": {
+    "count": 1,
+    "per_connection": {
+     "1": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 1
+    },
+    "first_response": "NO DATA"
+   }
+  },
+  "uds_22_readDataById": {
+   "2204A3": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E8076204A300000000"
+   },
+   "220600": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762060000000000"
+   },
+   "222A26": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E807622A2600000000"
+   },
+   "222A28": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E807622A2800000000"
+   },
+   "222A2A": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E807622A2A00000000"
+   },
+   "222A2F": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E807622A2F00000000"
+   },
+   "223C00": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E807623C0000000000"
+   },
+   "22F17B": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F17B00000000"
+   },
+   "22F17C": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F17C00000000"
+   },
+   "22F180": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18000000000"
+   },
+   "22F181": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18100000000"
+   },
+   "22F182": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18200000000"
+   },
+   "22F183": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18300000000"
+   },
+   "22F184": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18400000000"
+   },
+   "22F185": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18500000000"
+   },
+   "22F186": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18600000000"
+   },
+   "22F187": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18700000000"
+   },
+   "22F188": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18800000000"
+   },
+   "22F189": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18900000000"
+   },
+   "22F18A": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18A00000000"
+   },
+   "22F18B": {
+    "count": 4,
+    "per_connection": {
+     "1": 2,
+     "2": 2
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 4
+    },
+    "first_response": "7E80762F18B00000000"
+   },
+   "22F18C": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18C00000000"
+   },
+   "22F18E": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F18E00000000"
+   },
+   "22F190": {
+    "count": 4,
+    "per_connection": {
+     "1": 2,
+     "2": 2
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2,
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19000000000"
+   },
+   "22F191": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19100000000"
+   },
+   "22F192": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19200000000"
+   },
+   "22F193": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19300000000"
+   },
+   "22F194": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19400000000"
+   },
+   "22F195": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19500000000"
+   },
+   "22F196": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19600000000"
+   },
+   "22F197": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19700000000"
+   },
+   "22F198": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19800000000"
+   },
+   "22F19B": {
+    "count": 4,
+    "per_connection": {
+     "1": 2,
+     "2": 2
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 4
+    },
+    "first_response": "7E80762F19B00000000"
+   },
+   "22F19C": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F19C00000000"
+   },
+   "22F19D": {
+    "count": 4,
+    "per_connection": {
+     "1": 2,
+     "2": 2
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 4
+    },
+    "first_response": "7E80762F19D00000000"
+   },
+   "22F19E": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E80762F19E00000000"
+   },
+   "22F1A0": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F1A000000000"
+   },
+   "22F1A1": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F1A100000000"
+   },
+   "22F1A2": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E80762F1A200000000"
+   },
+   "22F1A3": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F1A300000000"
+   },
+   "22F1A9": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F1A900000000"
+   },
+   "22F1AA": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F1AA00000000"
+   },
+   "22F1B1": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 2
+    },
+    "first_response": "7E80762F1B100000000"
+   },
+   "22F1B7": {
+    "count": 3,
+    "per_connection": {
+     "1": 2,
+     "2": 1
+    },
+    "contexts": {
+     "SH=710 CRA=77A": 3
+    },
+    "first_response": "7E80762F1B700000000"
+   },
+   "22F500": {
+    "count": 2,
+    "per_connection": {
+     "1": 1,
+     "2": 1
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 2
+    },
+    "first_response": "7E80762F50001020304"
+   },
+   "22F508": {
+    "count": 87,
+    "per_connection": {
+     "1": 1,
+     "2": 86
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 87
+    },
+    "first_response": "7E80762F50800000000"
+   },
+   "22F50F": {
+    "count": 87,
+    "per_connection": {
+     "1": 1,
+     "2": 86
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 87
+    },
+    "first_response": "7E80762F50F00000000"
+   },
+   "22F517": {
+    "count": 85,
+    "per_connection": {
+     "2": 85
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 85
+    },
+    "first_response": "7E80762F51700000000"
+   },
+   "22F518": {
+    "count": 84,
+    "per_connection": {
+     "2": 84
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 84
+    },
+    "first_response": "7E80762F51800000000"
+   },
+   "22F51E": {
+    "count": 84,
+    "per_connection": {
+     "2": 84
+    },
+    "contexts": {
+     "SH=7DF CRA=-": 84
+    },
+    "first_response": "7E80762F51E00000000"
+   }
+  }
+ }
+}
